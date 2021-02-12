@@ -4,14 +4,17 @@ body {
 h1 {
     font-family : Raleway,sans-serif;
     font-size : 48px;
+    text-align : center;
 }
 h2 {
     font-family : Raleway,sans-serif;
     font-size : 30px;
+    text-align : center;
 }
 p {
     font-family : Roboto,sans-serif;
     font-size : 16px;
+    text-align : center;
 }
 a {
     font-family : Raleway,sans-serif;
@@ -20,20 +23,33 @@ a {
 .navigation {
     width : 4rem;
     display : inline-block;
-    right : 4rem;
-    top : 4rem;
+    margin-top : 2rem;
+    margin-left : 2rem;
+    margin-left : 2rem;
 }
 .croix {
     width : 4rem;
     display : inline-block;
-    left : 4rem;
-    top : 4rem;
+}
+header {
+    background-color : #fb7305;
+    margin-top : 0;
+}
+.centré {
+    display : block;
+    margin-left : auto;
+    margin-right : auto;
+    width : 6rem;
 }
 .menu {
     text-align : center;
 }
-header {
-    background-color : #fb7305;
-    margin : 0;
-    padding : 1px;
+.menu main nav ul {
+    list-style-type : none;
+}
+.menu main nav ul il:hover {
+    color : #f71d29;
+}
+.accueil img{
+    text-align : center;
 }
