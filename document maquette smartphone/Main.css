@@ -1,6 +1,13 @@
+body {
+    background-color : #78c8f1;
+}
 h1 {
     font-family : Raleway,sans-serif;
     font-size : 48px;
+}
+h2 {
+    font-family : Raleway,sans-serif;
+    font-size : 30px;
 }
 p {
     font-family : Roboto,sans-serif;
@@ -10,6 +17,23 @@ a {
     font-family : Raleway,sans-serif;
     font-size : 36px;
 }
+.navigation {
+    width : 4rem;
+    display : inline-block;
+    right : 4rem;
+    top : 4rem;
+}
+.croix {
+    width : 4rem;
+    display : inline-block;
+    left : 4rem;
+    top : 4rem;
+}
 .menu {
-
+    text-align : center;
+}
+header {
+    background-color : #fb7305;
+    margin : 0;
+    padding : 1px;
 }
