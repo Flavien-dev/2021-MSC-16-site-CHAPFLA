@@ -1,7 +1,6 @@
 * {
     box-sizing: border-box;
 }
-
 /********************
 ***** Général *******
  */
@@ -53,8 +52,7 @@ header {
     display: inline-block;
 }
 .centre {
-    text-align : center;
-    display: inline-block;
+    text-align: center;
 }
 /****************
 **** Contenu ****
@@ -66,18 +64,30 @@ main div p {
     display : inline-block;
     padding : 30px;
 }
+
 .img-center {
+    text-align: center;
+    height: 200px;
     display : inline-block;
     padding : 30px;
     margin : 0;
 }
 .image-accueil {
-    width : 30rem;
+    width : 90%;
 }
 .reseaux-sociaux {
-    width : 50%;
-    margin-left: auto;
-    margin-right: auto;
+    text-align: center;
+}
+.reseaux {
+    display: inline-block;
+}
+.en-gras {
+    font-weight: bold;
+}
+.lien-video {
+    font-family : Raleway,sans-serif;
+    font-size : 26px;
+    color: #699137;
 }
 /*********************
 **** Pied de page ****
@@ -131,6 +141,10 @@ footer {
 .glace main {
     background-color: #d2f4fd;
 }
+.glace main div img {
+    text-align: center;
+    width: 50%;
+}
 .glace footer {
     background-color: #fb7305;
 }
@@ -141,7 +155,10 @@ footer {
     background-color: #fb7305;
 }
 .neige main {
-background-color: #1e3a92;
+    background-color: #1e3a92;
+}
+.neige main div img {
+    width: 100%;
 }
 .neige footer {
     background-color: #fb7305;
@@ -155,6 +172,12 @@ background-color: #1e3a92;
 .compétitions main {
     background-color: #78c8f1;
 }
+.compétitions main img {
+    width: 100%;
+}
+.compétitions main div a:hover {
+    color: #fb7305;
+}
 .compétitions footer {
     background-color: #fb7305;
 }
@@ -166,6 +189,9 @@ background-color: #1e3a92;
 }
 .champions main {
     background-color: #d2f4fd;
+}
+.champions main .champions-images {
+    width: 100%;
 }
 .champions footer {
     background-color: #fb7305;
