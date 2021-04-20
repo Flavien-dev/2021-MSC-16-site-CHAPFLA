@@ -89,7 +89,9 @@ main {
 main div p {
     display : inline-block;
 }
-
+/*******************
+******* Class ******
+ */
 .img-center {
     text-align: center;
     height: 90px;
