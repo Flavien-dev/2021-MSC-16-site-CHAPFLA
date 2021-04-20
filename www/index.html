@@ -2,66 +2,83 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Index</title>
-    <link rel="icon" type="image/jpg" href="../www/images/logosite.jpg"/>
+    <title>Accueil</title>
+    <link rel="icon" type="image/jpg" href="images/logosite.jpg"/>
     <link href = "css/main.css" type="text/css" rel="stylesheet" >
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<body class="accueil">
+<body class="index">
 <header>
-    <a href="menu.html"><img class="navigation" src="../www/images/menu.png" alt="menu"></a>
+    <a href="menu.html"><img class="navigation" src="images/menu.png" alt="menu"></a>
+    <a href="index.html"><img class="croix" src="images/cancel.png" alt="croix"></a>
 </header>
 <main>
-    <h1>Les sports d'hiver</h1>
-    <h2>Bienvenu,</h2>
-    <p>sur le site des sports d’hiver ! Vous trouverez sur ce site plusieurs informations par rapport aux sports d’hiver
-        et sur certains champions et championnes suisses.</p>
-    <p>Vous vous trouvez actuellement sur la page d’accueil du site des sports d’hiver. Sélectionnez une des images si
-        dessous pour accèder à une nouvelle page.</p>
-
-    <figure>
-    <img class="centre image-accueil" src="images/hockeyeur.jpg"
-        alt="image d'un hockeyeur">
-    <figcaption>les sports sur glace</figcaption>
-    </figure>
-
-    <figure>
-    <img class="centre image-accueil" src="images/snowboardeur.jpg"
-         alt="image de snowboardeur">
-    <figcaption>les sports sur neige</figcaption>
-    </figure>
-
-    <figure>
-    <img class="centre image-accueil" src="images/anneauxolympiques.png"
-         alt="logo des 5 anneaux des sports d'hiver">
-    <figcaption>compétition</figcaption>
-    </figure>
-
-        <figure>
-    <img class="centre image-accueil" src="images/beatfeuzphoto.jpg"
-         alt="photo de Beat Feuz">
-    <figcaption>champions</figcaption>
-    </figure>
-
-    <h2>Le saviez-vous?</h2>
-    <p>La première célébration des jeux olympiques d’hiver a eu lieu dans la station française de Chamonix en 1924.
-        Les premiers sports sont le ski de fond, le patinage artistique et de vitesse, le hockey sur glace,
-        le combiné nordique, le saut à ski, le bobsleigh, le curling et la patrouille militaire.</p>
-    <p>N'oubliez pas de nous suivre sur :</p>
-    <div class="reseaux-sociaux">
+        <h1>Les sports d'hiver</h1>
+        <h2>Bienvenue,</h2>
+        <p>sur le site des sports d’hiver ! Vous trouverez sur ce site
+            plusieurs informations par rapport aux sports d’hiver
+            et sur certains champions et championnes suisses.</p>
+        <p>Vous vous trouvez actuellement sur la page d’accueil
+            du site <strong>des sports d’hiver</strong>. Sélectionnez une des images si
+            dessous pour accèder à une nouvelle page.</p>
+    <section class="bleu-accueil image-site">
         <div>
-            <p>Youtube</p>
-            <p>Instagram</p>
-            <p>Facebook</p>
+            <figure>
+                <a href="lessportssurglace.html"><img class="centre image-accueil" src="images/hockeyeur.jpg"
+                     alt="image d'un hockeyeur"></a>
+                <figcaption class="en-gras">Les sports sur glace</figcaption>
+            </figure>
         </div>
+    </section>
+    <section class="bleu-accueil image-site">
         <div>
-            <img class="centre img-center" src="../www/images/youtube.png" alt="logo de Youtube">
-            <img class="centre img-center" src="../www/images/instagram.png" alt="logo d'Instagram">
-            <img class="centre img-center" src="../www/images/facebook.png" alt="logo de Facebook">
+            <figure>
+                <a href="lessportssurneige.html"><img class="centre image-accueil" src="images/snowboardeur.jpg"
+                     alt="image d'une course de snowboardeur"></a>
+                <figcaption class="en-gras">Les sports sur neige</figcaption>
+            </figure>
         </div>
-    </div>
+    </section>
+    <section class="bleu-accueil image-site">
+        <div>
+            <figure>
+                <a href="competitions.html"></a><img class="centre image-accueil" src="images/anneauxolympiques.png"
+                     alt="logo des 5 anneaux des sports d'hiver"></a>
+                <figcaption class="en-gras">Compétition</figcaption>
+            </figure>
+        </div>
+    </section>
+    <section class="bleu-accueil image-site">
+        <div>
+            <figure>
+                <a href="champions.html"><img class="centre image-accueil" src="images/beatfeuzphoto.jpg"
+                     alt="photo de Beat Feuz"></a>
+                <figcaption class="en-gras">Champions</figcaption>
+            </figure>
+        </div>
+    </section>
+        <h2>Le saviez-vous?</h2>
+        <p>La première célébration des jeux olympiques d’hiver a eu lieu dans la station française de Chamonix en 1924.
+            Les premiers sports sont le ski de fond, le patinage artistique et de vitesse, le hockey sur glace,
+            le combiné nordique, le saut à ski, le bobsleigh, le curling et la patrouille militaire.</p>
+        <p class="centre">N'oubliez pas de nous suivre sur :</p>
+            <div class="reseaux-sociaux">
+                <figure class="reseaux">
+                    <img class="img-center img-reseau" src="images/youtube.png" alt="logo de Youtube">
+                    <figcaption class="en-gras">Youtube</figcaption>
+                </figure>
+                <figure class="reseaux">
+                    <img class="img-center img-reseau" src="images/instagram.png" alt="logo d'Instagram">
+                    <figcaption class="en-gras">Instagram</figcaption>
+                </figure>
+                <figure class="reseaux">
+                    <img class="img-center img-reseau" src="images/facebook.png" alt="logo de Facebook">
+                    <figcaption class="en-gras">Facebook</figcaption>
+                </figure>
+            </div>
 </main>
-<footer>
+<footer class="pied-de-page">
+    <img class="fleche-gauche" src="images/f">
 </footer>
 </body>
-</html>
