@@ -148,6 +148,19 @@ footer {
     width : 100%;
     height: 40px;
 }
+footer img {
+    width: 36px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.fleche-gauche {
+    float: left;
+    color: #f71d29;
+}
+.fleche-droite {
+    float: right;
+    color: #f71d29;
+}
 .pied-de-page {
     background-color: #fb7305;
     margin: 0;
