@@ -170,6 +170,7 @@ footer img {
  */
 .menu {
     background-color: #1e3a92;
+    margin: 0.1px;
 }
 .menu a {
     text-decoration: none;
